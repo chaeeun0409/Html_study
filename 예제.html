@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Fixed top navbar example · Bootstrap v5.0</title>
+
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      :root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+      }
+     
+      *, ::after, ::before{
+        box-sizing: border-box;
+      }
+
+      body{
+        margin: 0px;
+        font-weight: 400 ;
+        line-height: 1.5;
+        color: #212529;
+
+        
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .메인{
+        width: 100%;
+        padding: 0px 4rem;
+        margin: auto;
+      }
+      .박스1{
+        border-radius: .25rem !important;
+        background-color: #f8f9fa !important;
+        padding: 3rem !important;
+      }
+      h1{
+        margin-top: 0;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+      .본문{
+        font-size: 1.25rem;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+      .버튼{
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        border-radius: .3rem;
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        border: 1px solid transparent;
+      
+      }
+
+    </style>
+
+  </head>
+  <body>
+    
+<nav class="">
+  <div class="">
+    <a class="" href="#">Fixed navbar</a>
+    <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class=""></span>
+    </button>
+    <div class="" id="navbarCollapse">
+      <ul class="">
+        <li class="">
+          <a class="" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="">
+          <a class="" href="#">Link</a>
+        </li>
+        <li class="">
+          <a class="" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="">
+        <input class="" type="search" placeholder="Search" aria-label="Search">
+        <button class="" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<main class="메인">
+  <div class="박스1">
+    <h1>Navbar example</h1>
+    <p class="본문">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser’s viewport.</p>
+    <a class="버튼" href="/docs/5.0/components/navbar/" role="button">View navbar docs &raquo;</a>
+  </div>
+</main>
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  </body>
+</html>
